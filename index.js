@@ -30,7 +30,7 @@ const makeCommits = (n) => {
   if (n === 0) return simpleGit().push();
 
   // Generate a random year between 1900 and the current year
-  const randomYear = 1901;
+  const randomYear = 2022;
 
   // Generate random week and day offsets
   const x = random.int(0, 54); // Random week offset
@@ -59,4 +59,4 @@ const makeCommits = (n) => {
 };
 
 // Start making commits
-makeCommits(1);
+makeCommits(10);
